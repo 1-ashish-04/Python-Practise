@@ -42,3 +42,5 @@ b.display()
 print("A Object")
 a = A()
 a.display()
+
+print(D.mro())

@@ -6,12 +6,12 @@ class Employee:
         self.empId = None #instance variable
         self.empName = None   #instance variable
 
-print("***Invoked from class object***", Employee.companyName) #class object
+print("***Invoked from class Name***", Employee.companyName) #class object
 e1 = Employee()              
 print("***Invoked from class object***",e1.companyName)
 
 e1.companyName = "Google"
-print("***Invoked from object***                                                                 9i99999999999999999999999999999999999999999999999999999999999999999999999999999", e1.companyName)
+print("***Invoked from object***", e1.companyName)
 print(Employee.companyName)
 
 e1.salary = 1000000 # creating instance variable using object reference  #second method

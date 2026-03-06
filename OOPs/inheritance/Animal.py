@@ -1,3 +1,4 @@
+# Single level inheritance
 class Animal:
     zoo = "City Zoo" # class variable is inherited
 
@@ -13,7 +14,7 @@ class Animal:
 
     @staticmethod
     def dance(): # static method is inherited
-        song_name = "123" # statice variable is not inherited, as they are local stored inside the stack (Temporary memory)
+        song_name = "123" # local variable is not inherited, as they are local stored inside the stack (Temporary memory)
         print("Animal is dancing")
     
 
