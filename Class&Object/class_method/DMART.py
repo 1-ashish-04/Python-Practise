@@ -12,6 +12,7 @@ class DMART:
 
     @classmethod
     def revisedDiscount(cls, newDiscount):
+        # print(cls)
         cls.discountOnEachProduct = newDiscount
 
 print("*****PRICE WITH DEFAULT DISCOUNT*****")
