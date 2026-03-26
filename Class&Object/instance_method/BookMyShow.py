@@ -4,6 +4,7 @@ class BookMyShow:
         print("Payment is successfull.")
 
 b = BookMyShow()
+# print(b)   # <__main__.BookMyShow object at 0x000001B059068830>
 print(b.__dict__) # {}
 
 b.makePayment() # Payment is successfull.

@@ -4,7 +4,7 @@ class BookMyShow:
 
 
     def makePayment(self, paymentType):
-        print(paymentType, "Paument is successfull.")
+        print(paymentType, "Payment is successfull.")
 
     def makePayment2(self, paymentType):
         self.type = paymentType   # these instance variable is global can easily accessible outside of these method.
