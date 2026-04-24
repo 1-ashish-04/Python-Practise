@@ -6,9 +6,9 @@ class Practise:
         self.empId = None
     
     def verifyStuent(func_name):  #decorator
-        def wrapp9er_name(self):
+        def wrapp9er_name(self): # if method is instance then need self keyword to pass in wrapper function 
             print("Verrifying sudent background")
-            func_name(self)
+            func_name(self) # and instance method calling also passed self keyword
             print("Successfully enrolled!!!")
         return wrapp9er_name
 
